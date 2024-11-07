@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espècies en perill d'extinció</title>
+    <link rel="stylesheet" href="css/tortuga.css"/>
 </head>
 <body>
 <header>
@@ -11,15 +13,17 @@
 <div>
     <nav>
         <ul>
-            <li><a href="./index.html">Inici</a></li>
-            <li><a href="./list.html">Llistat</a></li>
-            <li><a href="#">Contacte</a></li>
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="list.html">Llistat</a></li>
+            <li><a href="contact.html">Contacte</a></li>
         </ul>
     </nav>
 </div>
 <div>
     <article>
-        <section>
+        <div class="container">
+            <ul class="animals">
+                <section>
             <h2>Tortuga Babaua - Caretta caretta</h2>
             <p><img src="img/Tortuga-Babaua.jpg" height="506" width="676"/></p>
             <section>
@@ -75,20 +79,20 @@
                     L'espècie és carnívora, s'alimenta de mol·luscs, crustacis, peixos, meduses i altres petits i
                     mitjans animals marins, que masteguen amb les seves grans i poderoses mandíbules.
                     Com altres tortugues marines, les femelles retornen a dipositar els seus ous a prop de la mateixa
-                    platja on havien desclos. Al contrari d'altres tortugues de mar, la persecució del mascle i
+                    platja on havien desclòs. Al contrari d'altres tortugues de mar, la persecució del mascle i
                     l'aparellament usualment no tenen lloc a prop de la platja d'anidament, fent-lo al llarg de les
                     rutes de migració entre camins d'alimentació i d'aparellament.[1]
                 </p>
                 <p>
                     Per motius de reproducció pot formar concentracions de centenars d'individus.
                     La maduresa sexual arriba cap als 10 anys, quan posseeix una longitud de 60 cm.
-                    L'aparellament, es produeix usualment a la superfície, els mascles usen les seves dues arpes per
+                    L'aparellament es produeix usualment a la superfície, els mascles usen les seves dues arpes per
                     aferrar-se al llom de les femelles. El període de reproducció és de maig a setembre.
                 </p>
                 <p>
                     A la resta del món els nius solen dipositar-se en climes tropicals i subtropicals.
                     Els llocs d'implantació preferits solen ser Brasil i Florida (Estats Units), i rares vegades a
-                    Austràlia. Normalment ponen a l'estiu depenent de l'hemisferi. Per niar les femelles migren grans
+                    Austràlia. Normalment, ponen a l'estiu depenent de l'hemisferi. Per niar les femelles migren grans
                     distàncies des de les zones d'alimentació. Pot produir híbrids amb la tortuga carei
                     (Eretmochelys imbricata) i la tortuga bastarda (Lepidochelys kempii).[1]
                 </p>
@@ -113,16 +117,19 @@
                 <p><img src="img/Tortuga-Babaua3.jpg" height="798" width="1200"/></p>
             </section>
         </section>
+            </ul>
+        </div>
     </article>
 </div>
 <div>
     <footer>
-        <section>
+        <section id="lic">
             <h2>Llicència</h2>
             <p>Pàgina web creada per Mar Pi</p>
             <p>Llicència <a href="#">Creative Commons Reconeixement-NoComercial-CompartirIgual 3.0</a></p>
+            <p><img src="img/license.png"/></p>
         </section>
-        <section>
+        <section id="fol">
             <h2>Segueix-nos</h2>
             <li><a href="#">Mastodon</a></li>
             <li><a href="#">Diaspora</a></li>
