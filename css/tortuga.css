@@ -96,3 +96,31 @@ footer > section > p {
 #fol {
     order: 3;
 }
+
+#errors {
+    display: flex;
+    justify-content: center;
+}
+
+#topbar {
+    transition: transform 0.3s ease-out;
+}
+
+.decreixent {
+    transition: background-color 0.3s ease;
+}
+
+#title {
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+    animation: rotateIn 1s ease-out forwards;
+}
+
+@keyframes rotateIn {
+    from {
+        transform: rotateX(90deg);
+    }
+    to {
+        transform: rotateX(0deg);
+    }
+}

@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Espècies en perill d'extinció</title>
   <link rel="stylesheet" href="css/tortuga.css"/>
+  <script src="js/formulari.js" type="module"></script>
 </head>
 <body>
-<header>
+<header id="topbar">
   <h1>EPEPC</h1>
 </header>
 <div>
@@ -21,29 +22,35 @@
 </div>
 <div>
   <article>
-    <h2>Contacta</h2>
-    <div class="container">
-      <ul class="animals">
-        <div>
-          <label for="text">El teu nom *</label>
-          <input type="text" id="text" name="text" value="">
-        </div>
-        <div>
-          <label for="email">El teu correu electrònic *</label>
-          <input type="email" id="email" name="email" multiple>
-        </div>
-        <div>
-          <label for="text">Títol *</label>
-          <input type="text" id="titol" name="text" value="">
-        </div>
-        <div>
-          <label for="textarea">Missatge *</label>
-          <textarea id="textarea" name="missatge"></textarea>
-        </div>
-      </ul>
-    </div>
-
+    <form method="post" id="formulari" action="./index.html">
+      <h2 id="titol">Contacta</h2>
+      <div class="container">
+        <ul class="animals">
+          <div>
+            <label for="text">El teu nom *</label>
+            <input type="text" id="text" name="text" value="">
+          </div>
+          <div>
+            <label for="email">El teu correu electrònic *</label>
+            <input type="text" id="email" name="email" multiple>
+          </div>
+          <div>
+            <label for="text">Títol *</label>
+            <input type="text" id="titolin" name="text" value="">
+          </div>
+          <div>
+            <label for="textarea">Missatge *</label>
+            <textarea id="textarea" name="missatge"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Enviar missatge"></input>
+          </div>
+        </ul>
+      </div>
+    </form>
   </article>
+  <div id="errors">
+  </div>
 </div>
 <div>
   <footer>
