@@ -37,25 +37,3 @@ function playWarningAnim(){
     }
     iscyan = !iscyan;
 }
-/*
-//Prevent the context menu on right-click for demonstration purposes
-testArea.addEventListener("contextmenu", (event) => {
-event.preventDefault();
-console.log("Context menu disabled");
-});
-*/
-
-
-
-
-/*
-testArea.addEventListener("click", () => {
-// Change to pointer cursor
-testArea.style.cursor = "pointer";
-console.log("Cursor changed to pointer!");
-
-// Revert back after 1 second
-setTimeout(() => {
-testArea.style.cursor = "default"; // Revert to default
-console.log("Cursor reverted to default!");
-}, 1000); // 1000 ms = 1 second*/
